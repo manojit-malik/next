@@ -1,0 +1,39 @@
+Practice:
+
+
+Objective: Create a multi-page Next.js application that demonstrates the use of the useRouter hook for navigation and dynamic routing.
+
+Tasks:
+
+Setup:
+Initialize a new Next.js project.
+Create two pages: index.js (Home) and about.js (About).
+Home Page (index.js):
+Add a heading with the text “Welcome to the Home Page”.
+Include a button labeled “Go to About Page”.
+Implement the button’s onClick event to programmatically navigate to the About page using the useRouter hook.
+About Page (about.js):
+Add a heading with the text “About Us”.
+Display a paragraph with some placeholder text about your application.
+Include a button labeled “Back to Home”.
+Implement the button’s onClick event to navigate back to the Home page using the useRouter hook.
+Dynamic Routing:
+Create a dynamic route [username].js under a profile directory.
+In [username].js, retrieve the username from the URL using the useRouter hook and display it on the page.
+Add a text input on the Home page to accept a username.
+Include a button labeled “View Profile” next to the input.
+Implement the button’s onClick event to navigate to the user’s profile page using the entered username.
+Output Screenshots
+Take screenshots of the application running in the browser showing:
+The homepage with the table of data.
+A dynamic page displaying a single data object.
+Any error messages if the fetching fails.
+
+
+Correct use of the useRouter hook for navigation.
+Proper implementation of dynamic routing.
+Code organization and readability.
+Functionality of the navigation between pages.
+
+
+This prtc question covers the basics of page navigation in Next.js, including static and dynamic routing. It’s a great way to assess understanding of the useRouter hook and its application in real-world scenarios.
